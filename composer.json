@@ -1,0 +1,34 @@
+{  
+      "name": "kshu/vtest",  
+      "description": "Yii2 kshu vtest",  
+      "keywords": [  
+        "yii2",  
+        "vtest"  
+      ],  
+      "homepage": "https://github.com/ZhuGuoting/vtest",  
+      "type": "yii2-extension",  
+      "license": "MIT",  
+      "support": {  
+        "source": "https://github.com/ZhuGuoting/vtest"  
+      },  
+      "authors": [  
+        {  
+          "name": "Kshu",  
+          "email": "353817978@qq.com"  
+        }  
+      ],  
+      "minimum-stability": "stable",  
+      "require": {  
+        "php": ">=7.0.0",  
+        "yiisoft/yii2": ">=2.0.6"  
+         
+      },  
+      "autoload": {  
+        "psr-4": {  
+          "liemi\\": ""  
+        }  
+      },  
+      "config": {  
+        "process-timeout": 1800  
+      }  
+    }
